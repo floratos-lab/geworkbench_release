@@ -5,7 +5,8 @@ rem Step 1: run ant createCleanDist
 set version_number=2.5.0
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 rem Step 2: use InstallAnyWhere to build the installers
-"C:\Program Files (x86)\InstallAnywhere 2012\build.exe" %version_number%.geWorkbench.iap_xml
+rem help for InstallAnywhere: https://flexerasoftware.subscribenet.com/control/inst/manualoutline
+"C:\Program Files (x86)\InstallAnywhere 2012\build.exe" geWorkbench.iap_xml
 ::pause
 
 
@@ -19,7 +20,7 @@ echo "done with building " %version_number%
 
 rem Step 3: rename the way Ken wants them
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-set sourceFolder=Y:\geworkbench_release\%version_number%.geWorkbench_Build_Output\Web_Installers\InstData
+set sourceFolder=Y:\geworkbench_release\geWorkbench_Build_Output\Web_Installers\InstData
 set targetFolder=Y:\geworkbench_release\renamed_installers
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
