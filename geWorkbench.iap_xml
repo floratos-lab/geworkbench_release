@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This script was automatically generated using InstallAnywhere 2012 Standard, Build 4349
      STATUS: Fully Functional LICENSED Edition
-     DATE:   Fri Sep 20 12:28:12 EDT 2013 -->
-<InstallAnywhere_Deployment_Project increments="10279">
+     DATE:   Fri Sep 20 14:35:12 EDT 2013 -->
+<InstallAnywhere_Deployment_Project increments="10327">
 	<!-- ** DO NOT EDIT ** Essential authorization and configuration data ** DO NOT EDIT ** -->
 	<essentialScriptInfo>
 		<versionID major="14" minor="0" revision="0"/>
@@ -10,9 +10,9 @@
 		<scriptID>12,42,11,85,78,76,73,67,69,78,83,69,68</scriptID>
 		<buildID>3,13,71,87,105,110,100,111,119,115,32,83,101,114,118,101,114,32,50,48,48,56,32,82,50,44,32,54,46,49,44,32,120,56,54,59,32,74,97,118,97,32,49,46,55,46,48,44,32,79,114,97,99,108,101,32,67,111,114,112,111,114,97,116,105,111,110,44,32,104,116,116,112,58,47,47,106,97,118,97,46,111,114,97,99,108,101,46,99,111,109,47,59,32,101,110,44,32,85,110,107,110,111,119,110,59,32,67,112,49,50,53,50</buildID>
 		<!-- The authorizationID may change between project saves and builds.  This does not effect the integrity of the project, nor do changes in this value represent changes in the actual InstallAnywhere project. -->
-		<authorizationID>1,0,0,64,61,57,58,-64,80,127,118,101,93,105,116,96,121,48,48,49,56,52,67,98,113,112,112,37,82,101,96,63,55,-11,2,9,12,51,28,1,1,0,0</authorizationID>
+		<authorizationID>1,0,0,64,61,-83,122,-16,80,127,118,101,93,105,116,96,121,48,48,49,56,52,67,98,113,112,112,37,82,101,96,63,55,-11,2,9,15,87,28,1,1,0,0</authorizationID>
 	</essentialScriptInfo>
-	<installationObjects uniqueObjects="356">
+	<installationObjects uniqueObjects="357">
 		<object class="com.zerog.ia.installer.Installer" objectID="6d8b8d489159">
 			<property name="belongsToUninstallPhase">
 				<boolean>false</boolean>
@@ -263,6 +263,19 @@ and any path to a file to read from that file]]></string>
 								</object>
 							</method>
 							<method name="addElement">
+								<object class="com.zerog.ia.installer.util.LAXPropertyData" objectID="6d8b8eef92a9">
+									<property name="propertyValue">
+										<string><![CDATA[2750]]></string>
+									</property>
+									<property name="propertyName">
+										<string><![CDATA[lax.nl.win32.microsoftvm.min.version]]></string>
+									</property>
+									<property name="propertyComment">
+										<string><![CDATA[The minimum version of Microsoft's VM this application will run against]]></string>
+									</property>
+								</object>
+							</method>
+							<method name="addElement">
 								<object class="com.zerog.ia.installer.util.LAXPropertyData" objectID="6d8b8eee92a9">
 									<property name="propertyValue">
 										<string><![CDATA[$IA_CLASSPATH$]]></string>
@@ -273,19 +286,6 @@ and any path to a file to read from that file]]></string>
 									<property name="propertyComment">
 										<string><![CDATA[the Java classpath necessary to run this application
 Can be separated by colons (Mac OS/Unix) or semicolons (Windows)]]></string>
-									</property>
-								</object>
-							</method>
-							<method name="addElement">
-								<object class="com.zerog.ia.installer.util.LAXPropertyData" objectID="6d8b8eef92a9">
-									<property name="propertyValue">
-										<string><![CDATA[2750]]></string>
-									</property>
-									<property name="propertyName">
-										<string><![CDATA[lax.nl.win32.microsoftvm.min.version]]></string>
-									</property>
-									<property name="propertyComment">
-										<string><![CDATA[The minimum version of Microsoft's VM this application will run against]]></string>
 									</property>
 								</object>
 							</method>
@@ -3438,7 +3438,7 @@ Can be separated by colons (Mac OS/Unix) or semicolons (Windows)]]></string>
 										<boolean>false</boolean>
 									</property>
 									<property name="totalSize">
-										<long>26</long>
+										<long>1</long>
 									</property>
 									<property name="macBinary">
 										<boolean>false</boolean>
@@ -6018,7 +6018,7 @@ Press "Done" to quit the installer.]]></string>
 								<boolean>true</boolean>
 							</property>
 							<property name="credentialInformation">
-								<object class="com.flexera.ia.vapp.datastructures.VMWareCredentialInformationImpl" objectID="4fb47c3d866a">
+								<object class="com.flexera.ia.vapp.datastructures.VMWareCredentialInformationImpl" objectID="5028bf5d86b8">
 									<property name="hostName">
 										<string><![CDATA[]]></string>
 									</property>
@@ -6088,7 +6088,7 @@ Press "Done" to quit the installer.]]></string>
 				<object class="java.util.Properties">
 					<method name="put">
 						<string><![CDATA[com.zerog.ia.project.save.last.date]]></string>
-						<string><![CDATA[September 20, 2013 12:28:12 PM EDT]]></string>
+						<string><![CDATA[September 20, 2013 2:35:12 PM EDT]]></string>
 					</method>
 					<method name="put">
 						<string><![CDATA[com.zerog.ia.build.options.optimization.platform.merge]]></string>
@@ -7980,7 +7980,7 @@ and any path to a file to read from that file]]></string>
 												<boolean>true</boolean>
 											</property>
 											<property name="totalSize">
-												<long>0</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
@@ -9507,7 +9507,7 @@ and any path to a file to read from that file]]></string>
 												<int>0</int>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="1ab69da7a906">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="4fb318818663">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9530,25 +9530,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genomespace]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\viper]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[genomespace]]></string>
+												<string><![CDATA[viper]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>14028697</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="1ab69d97a8f5">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="4fb31768864d">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9571,25 +9571,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\sam]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\lincs]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[sam]]></string>
+												<string><![CDATA[lincs]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>72274</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="1ab5c682a8eb">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="4fb206ba8643">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9612,25 +9612,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cupid]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cerna]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[cupid]]></string>
+												<string><![CDATA[cerna]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>18712</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f294a1">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="42ccdbc0af76">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9653,25 +9653,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data\cardiogenomics.med.harvard.edu]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\aracne-java]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[cardiogenomics.med.harvard.edu]]></string>
+												<string><![CDATA[aracne-java]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>7989281</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f394a3">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="528cdc72a23f">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9694,25 +9694,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data\public_data]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\idea]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[public_data]]></string>
+												<string><![CDATA[idea]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>22041579</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f294a6">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="aedcf351a250">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9735,25 +9735,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data\jaspar_CORE]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\masterregulator]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[jaspar_CORE]]></string>
+												<string><![CDATA[masterregulator]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>386154</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f294aa">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="aedb42fba248">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9776,13 +9776,136 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\foldchange]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[data]]></string>
+												<string><![CDATA[foldchange]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91be9540">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\lib]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[lib]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ad953b">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\classes\org\geworkbench]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[geworkbench]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ad953d">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\classes\org]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[org]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
@@ -9794,12 +9917,10 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<visualChildren>
-												<object refID="6d8b90f294a6"/>
-												<object refID="6d8b90f394a3"/>
-												<object refID="6d8b90f294a1"/>
+												<object refID="6d8b91ad953b"/>
 											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6a7504dc8952">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ae953f">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9822,7 +9943,7 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\alignment\classes]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\classes]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
@@ -9834,13 +9955,16 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>170436</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
+											<visualChildren>
+												<object refID="6d8b91ad953d"/>
+											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b910294b1">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91be9542">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -9863,13 +9987,13 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\alignment]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[alignment]]></string>
+												<string><![CDATA[geneontology2]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
@@ -9881,10 +10005,1936 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<visualChildren>
-												<object refID="6a7504dc8951"/>
-												<object refID="6a7504dd8951"/>
-												<object refID="6a7504dc8952"/>
+												<object refID="6d8b90b3946f"/>
+												<object refID="6d8b90b39471"/>
+												<object refID="6d8b91ae953f"/>
+												<object refID="6d8b91be9540"/>
 											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ad9539">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\viewers]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[viewers]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ae9536">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\versioninfo]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[versioninfo]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6c4f9b869d31">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\ttest\classes]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[classes]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919e9535">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\ttest]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[ttest]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6c4f9b869d30"/>
+												<object refID="6c4f9b859d31"/>
+												<object refID="6c4f9b869d31"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919e9533">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\somclustering]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[somclustering]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919e9531">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skylineview]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[skylineview]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919f952e">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skyline]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[skyline]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919f952c">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skybaseview]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[skybaseview]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e952b">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skybase]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[skybase]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e9529">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\sequences]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[sequences]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918f9526">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\sequenceretriever]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[sequenceretriever]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e9524">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\selectors]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[selectors]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918f9522">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\pudge]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[pudge]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e9520">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\promoter]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[promoter]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918f951d">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\poshistogram]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[poshistogram]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f951c">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\plots]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[plots]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f951a">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\normalization]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[normalization]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91809517">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\mindy]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[mindy]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91809515">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\microarrays]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[microarrays]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f9513">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\matrixreduce]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[matrixreduce]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f9511">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\markus]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[markus]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b9180950e">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\jmol]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[jmol]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b9170950d">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\interactions]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[interactions]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6c4fa50b9f96">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\hierarchicalclustering\classes]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[classes]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91709509">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\hierarchicalclustering]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[hierarchicalclustering]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6c4fa50b9f95"/>
+												<object refID="6c4fa50c9f95"/>
+												<object refID="6c4fa50b9f96"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f9504">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\gpmodule_v3_0]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[gpmodule_v3_0]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="14129ed9a00f">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genspace\classes]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[classes]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="14129fe2a07c">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genspace\lib]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[lib]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f9500">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genspace]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[genspace]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="14129ed9a00e"/>
+												<object refID="14129ed8a00f"/>
+												<object refID="14129ed9a00f"/>
+												<object refID="14129fe2a07c"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f94fa">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\filtering\classes]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[classes]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f94fd">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\filtering]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[filtering]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6d8b90b3946b"/>
+												<object refID="6d8b90b3946d"/>
+												<object refID="6d8b916f94fa"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94f7">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\discovery]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[discovery]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94f2">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\lib]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[lib]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915194e3">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org\geworkbench\components\cytoscape]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[cytoscape]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915194e5">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org\geworkbench\components]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[components]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6d8b915194e3"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915094ea">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org\geworkbench]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[geworkbench]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6d8b915194e5"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94ee">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[org]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6d8b915094ea"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94f0">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[classes]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6d8b915f94ee"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916094f4">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[cytoscape]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+											<visualChildren>
+												<object refID="6d8b90b39475"/>
+												<object refID="6d8b90c49478"/>
+												<object refID="6d8b915f94f0"/>
+												<object refID="6d8b915f94f2"/>
+											</visualChildren>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915194e1">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\colormosaic]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[colormosaic]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915094df">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\celprocessing]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[celprocessing]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b914194dd">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\caarray]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[caarray]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b913094ca">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\anova]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[anova]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b913094c8">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\annotations]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[annotations]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b912194c4">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\analysis\lib]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[lib]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6a7504fb8982">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\analysis\classes\org]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[org]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
 										</object>
 										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6a7504fb8980">
 											<property name="belongsToUninstallPhase">
@@ -9921,7 +11971,7 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>13455</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
@@ -10147,47 +12197,6 @@ and any path to a file to read from that file]]></string>
 												<object refID="6a7504fb897c"/>
 											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6a7504fb8982">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\analysis\classes\org]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[org]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>85731</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
 										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b912194c2">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
@@ -10232,47 +12241,6 @@ and any path to a file to read from that file]]></string>
 												<object refID="6a7504fb897b"/>
 												<object refID="6a7504fb8982"/>
 											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b912194c4">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\analysis\lib]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[lib]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>11811811</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
 										</object>
 										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b912294c6">
 											<property name="belongsToUninstallPhase">
@@ -10321,7 +12289,7 @@ and any path to a file to read from that file]]></string>
 												<object refID="6d8b912194c4"/>
 											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b913094c8">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6a7504dc8952">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -10344,385 +12312,7 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\annotations]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[annotations]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>75931</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b913094ca">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\anova]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[anova]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>4739298</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b914194dd">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\caarray]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[caarray]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>16150018</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915094df">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\celprocessing]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[celprocessing]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>193695</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915194e1">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\colormosaic]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[colormosaic]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>186475</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915194e3">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org\geworkbench\components\cytoscape]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[cytoscape]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>168761</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915194e5">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org\geworkbench\components]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[components]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-											<visualChildren>
-												<object refID="6d8b915194e3"/>
-											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915094ea">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org\geworkbench]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[geworkbench]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-											<visualChildren>
-												<object refID="6d8b915194e5"/>
-											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94ee">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes\org]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[org]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-											<visualChildren>
-												<object refID="6d8b915094ea"/>
-											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94f0">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\classes]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\alignment\classes]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
@@ -10739,11 +12329,8 @@ and any path to a file to read from that file]]></string>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
-											<visualChildren>
-												<object refID="6d8b915f94ee"/>
-											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94f2">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b910294b1">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -10766,54 +12353,13 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape\lib]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\alignment]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[lib]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>67206350</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916094f4">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cytoscape]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[cytoscape]]></string>
+												<string><![CDATA[alignment]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
@@ -10825,13 +12371,12 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<visualChildren>
-												<object refID="6d8b90b39475"/>
-												<object refID="6d8b90c49478"/>
-												<object refID="6d8b915f94f0"/>
-												<object refID="6d8b915f94f2"/>
+												<object refID="6a7504dc8951"/>
+												<object refID="6a7504dd8951"/>
+												<object refID="6a7504dc8952"/>
 											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b915f94f7">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f294a6">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -10854,25 +12399,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\discovery]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data\jaspar_CORE]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[discovery]]></string>
+												<string><![CDATA[jaspar_CORE]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>5222308</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f94fa">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f394a3">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -10895,25 +12440,25 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\filtering\classes]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data\public_data]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[classes]]></string>
+												<string><![CDATA[public_data]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>205648</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f94fd">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f294a1">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -10936,13 +12481,54 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\filtering]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data\cardiogenomics.med.harvard.edu]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[filtering]]></string>
+												<string><![CDATA[cardiogenomics.med.harvard.edu]]></string>
+											</property>
+											<property name="removeRecursively">
+												<boolean>false</boolean>
+											</property>
+											<property name="totalSize">
+												<long>1</long>
+											</property>
+											<property name="macBinary">
+												<boolean>false</boolean>
+											</property>
+										</object>
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b90f294aa">
+											<property name="belongsToUninstallPhase">
+												<boolean>false</boolean>
+											</property>
+											<property name="rollbackEnabledCancel">
+												<boolean>true</boolean>
+											</property>
+											<property name="rollbackEnabledError">
+												<boolean>true</boolean>
+											</property>
+											<property name="ruleExpression">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="unixPermissions">
+												<string><![CDATA[775]]></string>
+											</property>
+											<property name="sourceName">
+												<string><![CDATA[]]></string>
+											</property>
+											<property name="overrideUnixPermissions">
+												<boolean>false</boolean>
+											</property>
+											<property name="sourcePath">
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\data]]></string>
+											</property>
+											<property name="shouldUninstall">
+												<boolean>true</boolean>
+											</property>
+											<property name="destinationName">
+												<string><![CDATA[data]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
@@ -10954,12 +12540,12 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<visualChildren>
-												<object refID="6d8b90b3946b"/>
-												<object refID="6d8b90b3946d"/>
-												<object refID="6d8b916f94fa"/>
+												<object refID="6d8b90f294a6"/>
+												<object refID="6d8b90f394a3"/>
+												<object refID="6d8b90f294a1"/>
 											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="14129fe2a07c">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="1ab5c682a8eb">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -10982,95 +12568,13 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genspace\lib]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cupid]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[lib]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>2928370</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="14129ed9a00f">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genspace\classes]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[classes]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>699609</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f9500">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genspace]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[genspace]]></string>
+												<string><![CDATA[cupid]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
@@ -11081,14 +12585,8 @@ and any path to a file to read from that file]]></string>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
-											<visualChildren>
-												<object refID="14129ed9a00e"/>
-												<object refID="14129ed8a00f"/>
-												<object refID="14129ed9a00f"/>
-												<object refID="14129fe2a07c"/>
-											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b916f9504">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="1ab69d97a8f5">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -11111,95 +12609,13 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\gpmodule_v3_0]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\sam]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[gpmodule_v3_0]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>12893452</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6c4fa50b9f96">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\hierarchicalclustering\classes]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[classes]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>145806</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91709509">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\hierarchicalclustering]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[hierarchicalclustering]]></string>
+												<string><![CDATA[sam]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
@@ -11210,13 +12626,8 @@ and any path to a file to read from that file]]></string>
 											<property name="macBinary">
 												<boolean>false</boolean>
 											</property>
-											<visualChildren>
-												<object refID="6c4fa50b9f95"/>
-												<object refID="6c4fa50c9f95"/>
-												<object refID="6c4fa50b9f96"/>
-											</visualChildren>
 										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b9170950d">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="1ab69da7a906">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -11239,1307 +12650,19 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\interactions]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\genomespace]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[interactions]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>310682</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b9180950e">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\jmol]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[jmol]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>6792996</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f9511">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\markus]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[markus]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1682184</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f9513">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\matrixreduce]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[matrixreduce]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>9157856</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91809515">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\microarrays]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[microarrays]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>150096</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91809517">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\mindy]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[mindy]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>4300792</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f951a">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\normalization]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[normalization]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>155604</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b917f951c">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\plots]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[plots]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>128270</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918f951d">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\poshistogram]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[poshistogram]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>19211</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e9520">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\promoter]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[promoter]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>18810569</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918f9522">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\pudge]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[pudge]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1629387</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e9524">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\selectors]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[selectors]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>193517</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918f9526">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\sequenceretriever]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[sequenceretriever]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>3810653</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e9529">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\sequences]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[sequences]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>4313</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b918e952b">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skybase]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[skybase]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>16041</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919f952c">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skybaseview]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[skybaseview]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>16333034</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919f952e">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skyline]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[skyline]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>25425</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919e9531">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\skylineview]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[skylineview]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>17859424</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919e9533">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\somclustering]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[somclustering]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>71394</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6c4f9b869d31">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\ttest\classes]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[classes]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>91643</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b919e9535">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\ttest]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[ttest]]></string>
+												<string><![CDATA[genomespace]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
 												<long>1</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-											<visualChildren>
-												<object refID="6c4f9b869d30"/>
-												<object refID="6c4f9b859d31"/>
-												<object refID="6c4f9b869d31"/>
-											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ae9536">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\versioninfo]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[versioninfo]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>9497</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ad9539">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\viewers]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[viewers]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>5471</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ad953b">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\classes\org\geworkbench]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[geworkbench]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>138533</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ad953d">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\classes\org]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[org]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-											<visualChildren>
-												<object refID="6d8b91ad953b"/>
-											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91ae953f">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\classes]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[classes]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-											<visualChildren>
-												<object refID="6d8b91ad953d"/>
-											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91be9540">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2\lib]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[lib]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>351264</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="6d8b91be9542">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\geneontology2]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[geneontology2]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>1</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-											<visualChildren>
-												<object refID="6d8b90b3946f"/>
-												<object refID="6d8b90b39471"/>
-												<object refID="6d8b91ae953f"/>
-												<object refID="6d8b91be9540"/>
-											</visualChildren>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="aedb42fba248">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\foldchange]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[foldchange]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>32030</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="aedcf351a250">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\masterregulator]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[masterregulator]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>542954</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="528cdc72a23f">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\idea]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[idea]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>19726854</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="42ccdbc0af76">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\aracne-java]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[aracne-java]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>3946611</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
@@ -12547,7 +12670,7 @@ and any path to a file to read from that file]]></string>
 										</object>
 										<object refID="a21e0d8b95a4"/>
 										<object refID="a21e0d6c9568"/>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="4fb206ba8643">
+										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="50288dd386ab">
 											<property name="belongsToUninstallPhase">
 												<boolean>false</boolean>
 											</property>
@@ -12570,101 +12693,19 @@ and any path to a file to read from that file]]></string>
 												<boolean>false</boolean>
 											</property>
 											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\cerna]]></string>
+												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\demand]]></string>
 											</property>
 											<property name="shouldUninstall">
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[cerna]]></string>
+												<string><![CDATA[demand]]></string>
 											</property>
 											<property name="removeRecursively">
 												<boolean>false</boolean>
 											</property>
 											<property name="totalSize">
-												<long>26962</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="4fb31768864d">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\lincs]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[lincs]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>275424</long>
-											</property>
-											<property name="macBinary">
-												<boolean>false</boolean>
-											</property>
-										</object>
-										<object class="com.zerog.ia.installer.actions.InstallDirectory" objectID="4fb318818663">
-											<property name="belongsToUninstallPhase">
-												<boolean>false</boolean>
-											</property>
-											<property name="rollbackEnabledCancel">
-												<boolean>true</boolean>
-											</property>
-											<property name="rollbackEnabledError">
-												<boolean>true</boolean>
-											</property>
-											<property name="ruleExpression">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="unixPermissions">
-												<string><![CDATA[775]]></string>
-											</property>
-											<property name="sourceName">
-												<string><![CDATA[]]></string>
-											</property>
-											<property name="overrideUnixPermissions">
-												<boolean>false</boolean>
-											</property>
-											<property name="sourcePath">
-												<string><![CDATA[Y:\geworkbench_release\cleanFolder\components\viper]]></string>
-											</property>
-											<property name="shouldUninstall">
-												<boolean>true</boolean>
-											</property>
-											<property name="destinationName">
-												<string><![CDATA[viper]]></string>
-											</property>
-											<property name="removeRecursively">
-												<boolean>false</boolean>
-											</property>
-											<property name="totalSize">
-												<long>21914512</long>
+												<long>1</long>
 											</property>
 											<property name="macBinary">
 												<boolean>false</boolean>
@@ -12757,6 +12798,7 @@ and any path to a file to read from that file]]></string>
 												<object refID="4fb206ba8643"/>
 												<object refID="4fb31768864d"/>
 												<object refID="4fb318818663"/>
+												<object refID="50288dd386ab"/>
 											</visualChildren>
 										</object>
 									</installChildren>
@@ -13566,62 +13608,63 @@ and any path to a file to read from that file]]></string>
 			</installChildren>
 		</object>
 	</installationObjects>
-	<restorationObjects count="56">
+	<restorationObjects count="57">
 		<object refID="a21e0d8b95a4"/>
 		<object refID="6d8b90859439"/>
-		<object refID="1ab69da7a906"/>
-		<object refID="1ab69d97a8f5"/>
-		<object refID="1ab5c682a8eb"/>
-		<object refID="6d8b90f294a1"/>
-		<object refID="6d8b90f394a3"/>
-		<object refID="6d8b90f294a6"/>
-		<object refID="6a7504dc8952"/>
-		<object refID="6a7504fb8980"/>
-		<object refID="6a7504fb8982"/>
-		<object refID="6d8b912194c4"/>
-		<object refID="6d8b913094c8"/>
-		<object refID="6d8b913094ca"/>
-		<object refID="6d8b914194dd"/>
-		<object refID="6d8b915094df"/>
-		<object refID="6d8b915194e1"/>
-		<object refID="6d8b915194e3"/>
-		<object refID="6d8b915f94f2"/>
-		<object refID="6d8b915f94f7"/>
-		<object refID="6d8b916f94fa"/>
-		<object refID="14129fe2a07c"/>
-		<object refID="14129ed9a00f"/>
-		<object refID="6d8b916f9504"/>
-		<object refID="6c4fa50b9f96"/>
-		<object refID="6d8b9170950d"/>
-		<object refID="6d8b9180950e"/>
-		<object refID="6d8b917f9511"/>
-		<object refID="6d8b917f9513"/>
-		<object refID="6d8b91809515"/>
-		<object refID="6d8b91809517"/>
-		<object refID="6d8b917f951a"/>
-		<object refID="6d8b917f951c"/>
-		<object refID="6d8b918f951d"/>
-		<object refID="6d8b918e9520"/>
-		<object refID="6d8b918f9522"/>
-		<object refID="6d8b918e9524"/>
-		<object refID="6d8b918f9526"/>
-		<object refID="6d8b918e9529"/>
-		<object refID="6d8b918e952b"/>
-		<object refID="6d8b919f952c"/>
-		<object refID="6d8b919f952e"/>
-		<object refID="6d8b919e9531"/>
-		<object refID="6d8b919e9533"/>
-		<object refID="6c4f9b869d31"/>
-		<object refID="6d8b91ae9536"/>
-		<object refID="6d8b91ad9539"/>
-		<object refID="6d8b91ad953b"/>
-		<object refID="6d8b91be9540"/>
-		<object refID="aedb42fba248"/>
-		<object refID="aedcf351a250"/>
-		<object refID="528cdc72a23f"/>
-		<object refID="42ccdbc0af76"/>
-		<object refID="4fb206ba8643"/>
-		<object refID="4fb31768864d"/>
 		<object refID="4fb318818663"/>
+		<object refID="4fb31768864d"/>
+		<object refID="4fb206ba8643"/>
+		<object refID="42ccdbc0af76"/>
+		<object refID="528cdc72a23f"/>
+		<object refID="aedcf351a250"/>
+		<object refID="aedb42fba248"/>
+		<object refID="6d8b91be9540"/>
+		<object refID="6d8b91ad953b"/>
+		<object refID="6d8b91ad9539"/>
+		<object refID="6d8b91ae9536"/>
+		<object refID="6c4f9b869d31"/>
+		<object refID="6d8b919e9533"/>
+		<object refID="6d8b919e9531"/>
+		<object refID="6d8b919f952e"/>
+		<object refID="6d8b919f952c"/>
+		<object refID="6d8b918e952b"/>
+		<object refID="6d8b918e9529"/>
+		<object refID="6d8b918f9526"/>
+		<object refID="6d8b918e9524"/>
+		<object refID="6d8b918f9522"/>
+		<object refID="6d8b918e9520"/>
+		<object refID="6d8b918f951d"/>
+		<object refID="6d8b917f951c"/>
+		<object refID="6d8b917f951a"/>
+		<object refID="6d8b91809517"/>
+		<object refID="6d8b91809515"/>
+		<object refID="6d8b917f9513"/>
+		<object refID="6d8b917f9511"/>
+		<object refID="6d8b9180950e"/>
+		<object refID="6d8b9170950d"/>
+		<object refID="6c4fa50b9f96"/>
+		<object refID="6d8b916f9504"/>
+		<object refID="14129ed9a00f"/>
+		<object refID="14129fe2a07c"/>
+		<object refID="6d8b916f94fa"/>
+		<object refID="6d8b915f94f7"/>
+		<object refID="6d8b915f94f2"/>
+		<object refID="6d8b915194e3"/>
+		<object refID="6d8b915194e1"/>
+		<object refID="6d8b915094df"/>
+		<object refID="6d8b914194dd"/>
+		<object refID="6d8b913094ca"/>
+		<object refID="6d8b913094c8"/>
+		<object refID="6d8b912194c4"/>
+		<object refID="6a7504fb8982"/>
+		<object refID="6a7504fb8980"/>
+		<object refID="6a7504dc8952"/>
+		<object refID="6d8b90f294a6"/>
+		<object refID="6d8b90f394a3"/>
+		<object refID="6d8b90f294a1"/>
+		<object refID="1ab5c682a8eb"/>
+		<object refID="1ab69d97a8f5"/>
+		<object refID="1ab69da7a906"/>
+		<object refID="50288dd386ab"/>
 	</restorationObjects>
 </InstallAnywhere_Deployment_Project>
