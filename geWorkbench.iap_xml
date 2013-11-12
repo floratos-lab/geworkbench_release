@@ -5256,7 +5256,7 @@ Press "Done" to quit the installer.]]></string>
 										<int>0</int>
 									</property>
 									<property name="name">
-										<string><![CDATA[geWorkbench_2.5.0]]></string>
+										<string><![CDATA[geWorkbench_2.5.1]]></string>
 									</property>
 									<property name="UUID">
 										<string><![CDATA[45b8d09a-1f13-11b2-8775-e6dea47ecd5f]]></string>
@@ -5279,13 +5279,13 @@ Press "Done" to quit the installer.]]></string>
 															<method name="add">
 																<object class="com.flexera.ia.vapp.datastructures.ProductInformation" objectID="45b8d0998776">
 																	<property name="productName">
-																		<string><![CDATA[geWorkbench_2.5.0]]></string>
+																		<string><![CDATA[geWorkbench_2.5.1]]></string>
 																	</property>
 																	<property name="productInformation">
 																		<string><![CDATA[]]></string>
 																	</property>
 																	<property name="productVersion">
-																		<string><![CDATA[2.5.0.0]]></string>
+																		<string><![CDATA[2.5.1.0]]></string>
 																	</property>
 																	<property name="productVendor">
 																		<string><![CDATA[Center for Computational Biology & Bioinformatics]]></string>
@@ -5961,7 +5961,7 @@ Press "Done" to quit the installer.]]></string>
 										</object>
 									</property>
 									<property name="version">
-										<string><![CDATA[2.5.0.0]]></string>
+										<string><![CDATA[2.5.1.0]]></string>
 									</property>
 									<property name="applianceEula">
 										<object class="com.flexera.ia.vapp.datastructures.EULA" objectID="45b8d0998775">
@@ -6420,13 +6420,13 @@ Press "Done" to quit the installer.]]></string>
 			<property name="installerInfoData">
 				<object class="com.zerog.ia.installer.util.InstallerInfoData" objectID="6d8b903793e3">
 					<property name="installerTitle">
-						<string><![CDATA[geWorkbench_2.5.0]]></string>
+						<string><![CDATA[geWorkbench_2.5.1]]></string>
 					</property>
 					<property name="installerName">
 						<string><![CDATA[install]]></string>
 					</property>
 					<property name="productName">
-						<string><![CDATA[geWorkbench_2.5.0]]></string>
+						<string><![CDATA[geWorkbench_2.5.1]]></string>
 					</property>
 					<property name="productID">
 						<object class="com.zerog.registry.UUID">
@@ -7936,7 +7936,7 @@ and any path to a file to read from that file]]></string>
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[geWorkbench_2.5.0]]></string>
+												<string><![CDATA[geWorkbench_2.5.1]]></string>
 											</property>
 											<property name="args">
 												<string><![CDATA[]]></string>
@@ -9524,7 +9524,7 @@ and any path to a file to read from that file]]></string>
 												<string><![CDATA[664]]></string>
 											</property>
 											<property name="sourceName">
-												<string><![CDATA[ReleaseNotes_2.5.0.txt]]></string>
+												<string><![CDATA[ReleaseNotes_2.5.1.txt]]></string>
 											</property>
 											<property name="overrideUnixPermissions">
 												<boolean>false</boolean>
@@ -9536,7 +9536,7 @@ and any path to a file to read from that file]]></string>
 												<boolean>true</boolean>
 											</property>
 											<property name="destinationName">
-												<string><![CDATA[ReleaseNotes_2.5.0.txt]]></string>
+												<string><![CDATA[ReleaseNotes_2.5.1.txt]]></string>
 											</property>
 											<property name="fileSize">
 												<long>-1</long>

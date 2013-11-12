@@ -2,11 +2,11 @@ rem Step 0: check out from CVS
 rem Step 1: run ant createCleanDist
 @echo off
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-set version_number=2.5.0
+set version_number=2.5.1
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 rem Step 2: use InstallAnyWhere to build the installers
 rem help for InstallAnywhere: https://flexerasoftware.subscribenet.com/control/inst/manualoutline
-"C:\Program Files (x86)\InstallAnywhere 2012\build.exe" geWorkbench.iap_xml
+"C:\Program Files (x86)\InstallAnywhere 2012\build.exe" Y:\geworkbench_release\geWorkbench.iap_xml
 ::pause
 
 
