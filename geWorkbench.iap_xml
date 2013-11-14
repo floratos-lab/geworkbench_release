@@ -6450,7 +6450,7 @@ Press "Done" to quit the installer.]]></string>
 								<int>5</int>
 							</property>
 							<property name="revision">
-								<int>0</int>
+								<int>1</int>
 							</property>
 							<property name="subRevision">
 								<int>0</int>
